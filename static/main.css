@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Prisma";
+  src: url("fonts/Prisma.otf") format("opentype");
+  src: url("fonts/Prisma.ttf") format("truetype"); }
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  zoom: 1; }
+
+input {
+  padding: 1em;
+  border-radius: 50%;
+  width: 10em;
+  background-color: rgba(0, 31, 27, 0.3);
+  border: 2px solid #001F1B; }
+
+h1, h2, h3, h4, h5 {
+  font-family: Prisma;
+  color: #fff;
+  position: relative;
+  font-weight: normal; }
+
+button {
+  background: #001F1B;
+  border: none;
+  color: #fff;
+  font-family: Prisma;
+  font-size: 2em;
+  padding: .5em;
+  border-radius: 40px;
+  width: 6em;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: .2s background ease-in; }
+  button:hover {
+    background: rgba(0, 31, 27, 0.5);
+    border: 2px solid #001F1B; }
+
+.space-background {
+  height: 100%;
+  width: 100%;
+  background: url(images/space.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.space-background input {
+  padding: .5em 0;
+  border-radius: 60px;
+  width: 15em;
+  text-align: left;
+  outline: none;
+  padding-left: 1em;
+  font-size: 2em;
+  background-color: rgba(0, 31, 27, 0.3);
+  color: #fff;
+  font-family: Prisma; }
+  .space-background input::-webkit-input-placeholder {
+    color: #001F1B; }
+  .space-background input:-moz-placeholder {
+    color: #001F1B; }
+  .space-background input::-moz-placeholder {
+    color: #001F1B; }
+  .space-background input:-ms-input-placeholder {
+    color: #001F1B; }
+  .space-background input:focus::-webkit-input-placeholder {
+    color: transparent; }
+  .space-background input:focus:-moz-placeholder {
+    color: transparent; }
+  .space-background input:focus::-moz-placeholder {
+    color: transparent; }
+  .space-background input:focus:-ms-input-placeholder {
+    color: transparent; }
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@-moz-keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+.ameranaut {
+  background-image: url("images/amernaut.png");
+  height: 230px;
+  width: 195px;
+  float: right;
+  margin: 2em 4em;
+  -webkit-animation: spin 20s ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+.space-background .search-bar {
+  margin: 0 auto;
+  top: 5em;
+  position: relative;
+  text-align: center; }
+  .space-background .search-bar input {
+    display: inline-block;
+    vertical-align: middle; }
+  .space-background .search-bar svg {
+    height: 3em;
+    width: 3em;
+    margin: 1em 0 1em 0;
+    vertical-align: middle;
+    text-align: right;
+    position: relative;
+    left: -4em; }
+  .space-background .search-bar button {
+    margin: 1em auto;
+    display: block; }
+.space-background h1 {
+  text-align: center;
+  top: 1em;
+  font-size: 4.5em; }
+
+/*# sourceMappingURL=main.css.map */

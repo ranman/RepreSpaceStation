@@ -1,0 +1,23 @@
+.space-background input {
+	padding: .5em 0;
+	border-radius: 60px;
+	width: 15em;
+	text-align: left;
+	outline: none;
+	padding-left: 1em;
+	font-size: 2em;
+	background-color: rgba(0, 31, 27, 0.3);
+	color: $white;
+	font-family: Prisma;
+
+	&::-webkit-input-placeholder { color: $dark-green; }
+	&:-moz-placeholder { color: $dark-green; }
+	&::-moz-placeholder { color: $dark-green; }
+	&:-ms-input-placeholder { color: $dark-green; }
+	&:focus {
+		&::-webkit-input-placeholder { color: transparent; }
+		&:-moz-placeholder { color: transparent; }
+		&::-moz-placeholder { color: transparent; }
+		&:-ms-input-placeholder { color: transparent; }
+	}
+}

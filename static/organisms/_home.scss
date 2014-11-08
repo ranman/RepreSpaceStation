@@ -1,0 +1,31 @@
+.space-background {
+	.search-bar {
+		margin: 0 auto;
+		top: 5em;
+		position: relative;
+		text-align: center;
+		input {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		& svg {
+			height: 3em;
+			width: 3em;
+			margin: 1em 0 1em 0;
+			vertical-align: middle;
+			text-align: right;
+			position: relative;
+			left: -4em;
+		}
+		button {
+			margin: 1em auto;
+			display: block;
+		}
+	}
+	h1 {
+		text-align: center;
+		top: 1em;
+		font-size: 4.5em;
+	}
+}
+

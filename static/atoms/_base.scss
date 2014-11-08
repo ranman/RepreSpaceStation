@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+}
+
+input {
+    padding: 1em;
+    border-radius: 50%;
+    width: 10em;
+    background-color: rgba($dark-green, .3);
+    border: 2px solid $dark-green;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Prisma;
+	color: $white;
+	position: relative;
+	font-weight: normal;
+}
+
+button {
+	background: $dark-green;
+	border: none;
+	color: $white;
+	font-family: Prisma;
+	font-size: 2em;
+	padding: .5em;
+	border-radius: 40px;
+	width: 6em;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: .2s background ease-in;
+	&:hover {
+		background: rgba($dark-green, .5);
+		border: 2px solid $dark-green;
+	}
+}
